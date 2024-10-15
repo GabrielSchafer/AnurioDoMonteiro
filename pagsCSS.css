@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  font-family:  Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: rgb(39, 54, 127);
+}
+img{
+  margin-left: 50px;
+  width: 250px;
+  height: 150px;
+}
+
+#logoMonteiro{
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  margin: 0;
+  height: 150px;
+  padding: 5px 5px 5px 5px;
+  color: rgb(249, 195, 41);
+  column-gap: 60%;
+}
+
+a{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  cursor : pointer;
+  text-decoration: none;
+  width: 350px;
+}
+
+a:hover{
+  background-color: #dcdcdc;
+  transition: all 1s ease-out;
+;
+}
+
+
+#links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  border: solid 2px rgb(249, 195, 41);
+  box-shadow: 5px 5px 5px 1px #ffc746;
+  padding: 10px;
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
+#links h2{
+  color: rgb(23, 38, 107);
+}
+#links img{
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
